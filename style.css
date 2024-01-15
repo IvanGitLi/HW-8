@@ -1,0 +1,75 @@
+.lesson-container {
+    font-family: Arial, sans-serif;
+    margin-top: 20px;
+  }
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  li {
+    margin-bottom: 10px;
+    padding: 8px;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+
+  li:nth-child(odd) {
+    background-color: #f2f2f2;
+  }
+
+  li:nth-child(even) {
+    background-color: #e6f7ff; 
+  }
+
+  li:hover {
+    background-color: #ffcccb;
+  }
+  li:first-child {
+    font-size: 18px;
+  }
+
+  li:last-child {
+    text-decoration: line-through;
+  }
+
+  li:nth-child(3n) {
+    color: #008000;
+  }
+
+  li:not(:last-child) {
+    border-bottom: 1px solid #ddd;
+  }
+
+  .text-box {
+    font-family: Arial, sans-serif;
+  }
+
+  h3 {
+    color: pink;
+  }
+
+  p {
+    color: grey;
+  }
+
+  #greycol {
+    color: grey;
+  }
+
+  div {
+    display: inline;
+  }
+
+  div p {
+    color: red;
+  }
+
+  h3 + p {
+    color: green;
+  }
+
+  .yellow {
+    color: yellow;
+  }
